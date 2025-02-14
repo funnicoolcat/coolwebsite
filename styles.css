@@ -1,0 +1,68 @@
+.title {
+	font-family: "Comic sans MS";
+	background-color: red;
+	color: white;
+	font-size: 80;
+}
+
+@font-face {
+	font-family: "windowsxp";
+	src: url(fonts/windows-xp-tahoma.ttf);
+}
+
+.iconlabel {
+	font-family: "windowsxp";
+	font-size: 23;
+	
+
+}
+
+.iconlabeldiv {
+    display: flex;
+    justify-content: flex-start; 
+	gap: 25px;
+}
+
+.shutdownscreen {
+	position: relative;
+	margin: auto;
+	display: none;
+	padding: 10px;
+}
+
+.cancel {
+	position: absolute;
+
+	top: 173px; /* Adjust to your desired distance from the top */
+	right: 662px; /* Adjust to your desired distance from the right */
+}
+
+.iconlist {
+    display: flex;
+    justify-content: flex-start; 
+	gap: 25px;
+}
+
+.blankwindow {
+	display: none;
+	position: relative;
+	margin: auto;
+	display: none;
+	padding: 10px;
+}
+
+.loadables {
+	display: none;
+}
+
+.house {
+	position: relative;
+	margin: auto;
+	padding: 78px;
+}
+
+.door {
+	position: absolute;
+	top: 200px; /* Adjust to your desired distance from the top */
+	right: 540px;
+}
